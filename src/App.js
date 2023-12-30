@@ -1,14 +1,21 @@
 import "./App.css";
-import { Route, BrowserRouter as Routes } from "react-router-dom";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 import HeroPage from "./Components/Homepages/HeroPage";
+import Navbar from "./Components/Navbar/Navbar";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/home" element={<HeroPage />} />
-      </Routes>
-    </div>
+    <ParallaxProvider>
+      <div className="App">
+        <Navbar />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<HeroPage />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </ParallaxProvider>
   );
 }
 

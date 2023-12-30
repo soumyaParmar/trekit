@@ -1,0 +1,20 @@
+.hero_body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero_inner {
+  width: 80%;
+  height: 80%;
+  color: #001a21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgba(27, 171, 220, 1);
+}
+.hero_inner p {
+  font-size: 100px;
+  text-shadow: 2px 2px rgba(255, 119, 0, 0.938);
+}

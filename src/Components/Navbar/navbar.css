@@ -1,0 +1,22 @@
+.nav_body {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem 1rem 3rem;
+  align-items: center;
+  backdrop-filter: blur(200px);
+  position: fixed;
+  width: 94%;
+  background-color: rgba(193, 255, 244, 1);
+  z-index: 1;
+}
+.nav_head {
+  font-size: 40px;
+}
+.nav_service {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.nav_service label {
+  font-size: 20px;
+}
