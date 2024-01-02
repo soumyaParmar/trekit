@@ -8,7 +8,7 @@ function HeroPage() {
   return (
     <>
       <div className="hero_body">
-        <Parallax className="hero_inner" speed={50}>
+        <Parallax className="hero_inner" speed={-12}>
           <p>THE ULTIMATE ADVENTURE STARTS HERE!</p>
         </Parallax>
       </div>
